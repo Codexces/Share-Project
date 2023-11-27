@@ -62,7 +62,7 @@
         margin: 0px;
         padding: 0px;
         top: 100%;
-        background: rgba(0, 0, 0, 0.78);
+        background: rgb(0 0 0 / 76%);
         z-index: 99;
         transition: all 0.5s linear 0s;
         transform: unset;
@@ -71,13 +71,14 @@
         height: 100vh !important;
     }
     header .logo {
-        width: 80px;
+        width: 70px;
+        padding: 10px;
     }
     nav {
         display: none;
     }
     nav ul {
-        width: 100%;
+        width: calc(100% - 110px);
         text-align: right;
         background: rgb(255, 255, 255);
         padding: 0px;
@@ -85,6 +86,7 @@
         overflow-y: auto;
         padding-top: 15px;
         padding-bottom: 30px;
+        height: 100vh;
     }
     nav ul li {
         width: 100%;
