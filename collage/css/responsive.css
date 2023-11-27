@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+    .announcsec h3 {
+        font-size: 20px;
+        letter-spacing: 0.3px;
+        margin: 0px 0px 10px;
+    }
+    .announcsec h3 a {
+        padding: 10px 30px;
+    }
+}
