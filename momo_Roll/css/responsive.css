@@ -1,0 +1,231 @@
+@media(max-width: 1080px) {
+    footer .footlogo img {
+        margin: 0px;
+    }
+    footer .footprivalist ul {
+        text-align: left;
+    }
+    footer .footprivalist ul li {
+        margin-right: 20px;
+    }
+    footer .bottomfooter {
+        padding: 30px 0px 0px;
+    }
+}
+
+@media(max-width:767px) {
+    header .logo img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .nav-toggle {
+        position: relative;
+        margin: 0px 0px 0px;
+        top: -1px;
+        display: block;
+        transition: all 0.5s linear 0s;
+        margin-right: 0px;
+    }
+    .nav-toggle.on {
+        position: relative;
+        z-index: 999;
+        border-color: rgb(233, 233, 233);
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.98);
+    }
+    .nav-toggle.on div {
+        background: rgb(0, 0, 0);
+    }
+    .nav-toggle.on .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .nav-toggle.on .two {
+        opacity: 0;
+    }
+    .nav-toggle.on .three {
+        transform: rotate(-45deg) translate(6px, -6px);
+        width: 100%;
+    }
+    .activated {
+        transition: all 0.5s linear 0s;
+        padding: 0px;
+        left: 0px !important;
+        display: block !important;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        top: 100%;
+        background: rgba(0, 0, 0, 0.78);
+        z-index: 99;
+        transition: all 0.5s linear 0s;
+        transform: unset;
+        left: -100% !important;
+        width: 100% !important;
+        height: 100vh !important;
+    }
+    header .logo {
+        width: 80px;
+    }
+    nav {
+        display: none;
+    }
+    nav ul {
+        width: 100%;
+        text-align: right;
+        background: rgb(255, 255, 255);
+        padding: 0px;
+        overflow: hidden;
+        overflow-y: auto;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    nav ul li {
+        width: 100%;
+        text-align: left;
+        line-height: unset;
+    }
+    nav ul li a {
+        font-size: 12px;
+        padding: 0px 10px;
+        line-height: 50px;
+        width: 100%;
+        border-bottom: 1px solid rgb(237, 237, 237);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #000 !important;
+    }
+    .momoroll h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .momoroll p {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .ourmenu {
+        padding: 10px 20px;
+    }
+    .ourmenu .ourmenubox .ourmenuimg {
+        padding: 10px 0px;
+    }
+    .ourmenu .ourmenubox .ourmenu-text {
+        bottom: -10%;
+    }
+    .ourmenu .ourmenubox .ourmenu-text h4 {
+        font-size: 17px;
+        font-weight: 800;
+    }
+    .ourmenu .ourmenubox .ourmenu-text p {
+        font-size: 14px;
+    }
+    .videosec .videosecbanner {
+        height: 400px;
+    }
+    .videosecbox {
+        margin-bottom: 20px;
+    }
+    .contactus h3 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .contactus p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contactus .contactimg {
+        height: auto;
+    }
+    .contactus form {
+        margin: 20px 0px;
+    }
+    .form-group.fullsect ul li {
+        font-size: 14px;
+        margin: 13px 20px 0px 0px;
+    }
+    .contactus form .formbutton {
+        padding: 8px 16px;
+        font-size: 15px;
+    }
+    .clientreviews {
+        padding: 30px 0px;
+    }
+    .clientreviews h3 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .clientreviews .clientreviewssec {
+        padding: 30px 40px 30px;
+    }
+    .clientreviews .clientreviewsbox {
+        margin: 0px 0px 100px;
+        padding: 10px 20px;
+    }
+    .blog .blogbox {
+        padding: 20px 20px 30px;
+        margin-bottom: 40px;
+    }
+    .blog .blogimg {
+        margin: 0px auto -80px;
+        width: 100%;
+    }
+    #counter {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+    #counter .item .count {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    #counter .item h5 {
+        font-size: 17px;
+    }
+    #counter .item:nth-child(even) {
+        border-right: none;
+    }
+    footer .footerlist h4 {
+        font-weight: 700;
+        margin: 20px 0px 10px;
+    }
+    footer .footerlist ul li {
+        line-height: 28px;
+    }
+    footer .footerlist ul li a {
+        font-size: 14px;
+    }
+    footer .footersubscribe {
+        padding: 30px 30px;
+        margin: 30px auto 10px;
+    }
+    footer .bottomfooter {
+        margin: 0px 0px 0px;
+        padding: 20px 0px;
+    }
+    footer .footlogo img {
+        margin: 0px;
+    }
+    footer .footersubscribe h4 {
+        font-weight: 800;
+    }
+    footer .footersubscribe p {
+        line-height: 25px;
+        font-size: 15px;
+    }
+    footer .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bottomfooter .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
