@@ -1,0 +1,516 @@
+@media(max-width:1280px) {
+    header .logo img {
+        width: 100%;
+    }
+    header .logo {
+        width: 150px;
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+    header nav ul li a {
+        font-size: 12px;
+        gap: 5px;
+        padding: 0px 10px;
+    }
+    .norsliever {
+        position: relative;
+        padding: 50px 0px;
+    }
+    .norsliever h2 {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .slider h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .slider p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .imasec {
+        width: 100%;
+        height: 25vh;
+    }
+    .imasec img {
+        top: -10%;
+    }
+    .serbox {
+        padding: 15px;
+    }
+    .serbox span img {
+        max-height: 40px;
+    }
+    .serbox h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .serbox p {
+        font-size: 11px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    .aboutsec {
+        padding: 0px 0px 30px;
+    }
+    .aboutsec p,
+    .mdhehom p,
+    .aboutsec li {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    .aboutsec h2,
+    .mdhehom h3,
+    .cuscar h3,
+    .aboutsec h3,
+    .dsconstre h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .ehcdb {
+        padding: 30px 0px !important;
+        margin-bottom: 30px;
+    }
+    .boxback {
+        padding: 15px;
+    }
+    .textareaseco span,
+    .boxback span {
+        margin: 0px 0px 0px;
+        padding: 0;
+    }
+    .aboutsec ul li {
+        margin-bottom: 10px;
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .cuscar img {
+        width: 90%;
+        top: -2rem;
+        right: 0;
+    }
+    .Wiskfd img {
+        width: 100%;
+        top: 80px;
+    }
+    .digiindadopdsc img {
+        width: 100%;
+    }
+    .stepsection {
+        padding: 30px 0px 30px !important;
+    }
+    .sṭepsex h4 {
+        margin: 20px 0px;
+        line-height: 20px;
+        font-size: 16px !important;
+    }
+    .sṭepsex span {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+    }
+    .mainformsection h4 {
+        font-size: 14px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .mainformsection h4 span {
+        font-size: 15px;
+    }
+    .mainformsection {
+        padding: 15px;
+    }
+    .mainformsection .form-group {
+        width: calc(96% / 2);
+        margin: 0px 0px 20px;
+        margin-right: 10px;
+    }
+    .mainformsection .form-group label {
+        font-size: 11px;
+        letter-spacing: 0.5px;
+        margin: 0px 0px 5px;
+    }
+    .mainformsection .form-group .form-control {
+        height: 40px;
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+    .mainformsection .form-group span {
+        font-size: 12px;
+        margin-right: 0px;
+        line-height: 10px;
+        width: 100%;
+        display: inline-block;
+    }
+    .mainformsection .form-group .form-check-input {
+        top: -5px;
+        margin-right: 5px;
+    }
+    .mainformsection button {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .mainformsection p {
+        margin: 10px 0px 0px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .sersedivted {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+    .narpagslder .sṭepsex h4 {
+        font-size: 12px !important;
+        line-height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .narpagslder .sṭepsex span {
+        width: 40px;
+        height: 40px;
+        font-size: 13px;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:767px) {
+    header .logo {
+        width: 200px;
+    }
+    header nav {
+        display: none;
+    }
+    .nav-toggle {
+        position: relative;
+        margin: 0;
+        margin-right: 0px;
+        top: 0px;
+        display: block;
+        transition: 0.5s all linear;
+        right: 10px;
+    }
+    header nav {
+        display: none;
+        position: absolute;
+        margin: 0;
+        padding: 0 !important;
+        top: 0%;
+        left: -100% !important;
+        width: 100% !important;
+        height: 100vh !important;
+        background: #000000c7;
+        z-index: 99;
+        transition: 0.5s all linear !important;
+        transform: unset !important;
+    }
+    .nav-toggle.on+nav {
+        left: 0;
+        transition: 0.5s all linear;
+    }
+    header nav ul {
+        width: calc(100% - 10rem);
+        text-align: right;
+        height: 100%;
+        background: #fff;
+        padding: 0px 0px;
+    }
+    header nav ul li {
+        width: 100%;
+        text-align: left;
+        line-height: unset;
+    }
+    .nav-toggle.on+nav {
+        left: 0 !important;
+        transition: 0.5s all linear !important;
+    }
+    header nav ul li a {
+        font-size: 12px;
+        padding: 0px 10px;
+        line-height: 50px;
+        width: 100%;
+        border-bottom: 1px solid #ededed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-toggle.on {
+        position: fixed;
+        top: 10px;
+        right: 15px;
+        z-index: 999;
+        border-color: #fff;
+        opacity: 1;
+        height: 40px;
+        padding: 5px;
+        background: #fffffffa;
+    }
+    .nav-toggle.on div {
+        background: #000;
+    }
+    .nav-toggle.on .one {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .nav-toggle.on .two {
+        opacity: 0;
+    }
+    .nav-toggle.on .three {
+        transform: rotate(-45deg) translate(7px, -8px);
+        width: 100%;
+    }
+    /*-- slider --*/
+    .slider h1 {
+        font-size: 39px;
+        margin-bottom: 10px;
+        line-height: 45px;
+    }
+    .slider p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 30px;
+        font-weight: 400;
+        display: inline-block;
+    }
+    .imasec {
+        position: relative;
+        margin: 30px 0px 0px;
+        padding: 0;
+        width: 100%;
+        height: 40vh;
+        display: inline-block;
+        display: none;
+    }
+    .imasec img {
+        top: 10px;
+    }
+    .services .container {
+        width: 98%;
+    }
+    .serbox {
+        padding: 10px 10px;
+        border-right: unset;
+        border-bottom: 1px solid #fff;
+    }
+    .serbox span img {
+        max-height: 40px;
+    }
+    .serbox h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .serbox p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .aboutsec {
+        padding: 30px 0px 30px;
+    }
+    .slider {
+        padding: 50px 0px 20px;
+        display: inline-block;
+    }
+    .slider a {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+    .aboutsec h2,
+    .mdhehom h3,
+    .cuscar h3,
+    .aboutsec h3,
+    .dsconstre h4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .aboutsec p,
+    .mdhehom p,
+    .aboutsec li {
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    .cuscar img {
+        width: 60%;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .imgsecbox {
+        position: relative;
+        margin: 20px 0px 0 0px;
+        padding: 0;
+        width: 100%;
+    }
+    .cuscar {
+        margin: 0px 0px 0px;
+        padding: 50px 0px;
+    }
+    .wiauctd.aboutsec {
+        padding: 0px 0px 30px;
+    }
+    .aboutsec .col-md-7 {
+        margin-bottom: 20px;
+    }
+    .aboutsec ul li {
+        margin-bottom: 15px;
+        line-height: 17px;
+        font-size: 13px;
+    }
+    .Wiskfd img {
+        width: 80%;
+    }
+    .textareaseco span,
+    .boxback span {
+        margin: 0px 0px 0px;
+    }
+    .aboutsec .col-md-5 {
+        margin-bottom: 30px;
+    }
+    .sṭepsex span {
+        font-size: 13px;
+        width: 40px;
+        height: 40px;
+    }
+    .sṭepsex h4 {
+        font-size: 14px !important;
+    }
+    .digiindadopdsc img {
+        width: 80%;
+    }
+    .copyright p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    header nav ul li:hover>ul {
+        display: none;
+    }
+    header nav ul li.dropnav.active ul {
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border: unset;
+        box-shadow: unset;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    header nav ul li ul li {
+        padding: 0px 15px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #d5d5d5;
+        padding-bottom: 10px;
+    }
+    header nav ul li ul li:last-child {
+        border-bottom: 1px solid #d5d5d5;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    header nav ul li ul li a {
+        font-size: 12px;
+        gap: 10px;
+        line-height: 20px;
+    }
+    header nav ul li ul li a span {
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+        line-height: 10px;
+    }
+    .norsliever h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .norsliever {
+        padding: 30px 0px;
+    }
+    .norsliever:after,
+    .norsliever:before {
+        width: 50%;
+    }
+    .mainformsection h4 {
+        font-size: 15px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        line-height: 25px;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .mainformsection h4 span {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .mainformsection .form-group {
+        width: 100%;
+        margin: 0px 0px 20px;
+        padding: 0;
+        margin-right: 0;
+    }
+    .mainformsection .form-group label {
+        font-size: 11px;
+        font-weight: 400;
+        margin: 0px 0px 2px;
+    }
+    .mainformsection .form-group .form-control {
+        font-size: 12px;
+    }
+    .mainformsection .form-group span {
+        font-size: 11px;
+        margin-right: 10px;
+    }
+    .mainformsection .form-group .form-check-input {
+        top: 6px;
+        margin-right: 5px;
+    }
+    .mainformsection p {
+        margin: 10px 0px 0px;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .fromlist,
+    .boxsection {
+        padding: 20px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .fromlist h4,
+    .boxsection h4 {
+        font-size: 14px;
+        margin: 0px 0px 20px;
+    }
+    .fromlist ul li {
+        padding: 10px 10px;
+        margin-bottom: 5px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .sersedivted {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 10px;
+    }
+    .narpagslder .sṭepsex h4 {
+        font-size: 14px;
+        line-height: 20px;
+        font-size: 14px !important;
+        margin-bottom: 0;
+    }
+    .narpagslder h4 {
+        font-size: 25px !important;
+        margin-bottom: 30px;
+    }
+    .faqsection .accordion-item button.accordion-button {
+        font-size: 12px;
+    }
+    .faqsection .accordion-collapse.collapse,
+    .faqsection .accordion-collapse.collapse p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}

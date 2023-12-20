@@ -574,8 +574,13 @@ footer p {
 .contain_text_timeline_box {
     border-radius: 10px;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0px;
 }
 
 .contain_text_timeline_box p {
@@ -1164,7 +1169,7 @@ footer p {
 }
 
 .pading-bootm-sec {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 .Consultancy {
@@ -1531,7 +1536,7 @@ footer p {
     border: 2px solid rgba(238, 238, 238, 0.933);
     border-radius: 8px;
     box-shadow: rgb(240 240 240 / 33%) 0px 2px 5px;
-    height: 270px;
+    height: 100%;
     width: 95%;
 }
 
@@ -2199,7 +2204,7 @@ footer p {
     border: 2px solid rgba(238, 238, 238, 0.933);
     border-radius: 6px;
     box-shadow: rgb(242, 242, 242) 0px 4px 10px;
-    height: 340px;
+    height: 100%;
     padding: 15px 20px;
     margin: 0px;
 }
@@ -3680,4 +3685,23 @@ screen and (max-height: 300px) {
     object-fit: contain !important;
     background: #dfdfdf21 !important;
     padding: 5px;
+}
+
+.owl-carousel .owl-stage,
+.owl-carousel .owl-stage .item {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+
+.owl-carousel .owl-stage .item {
+    padding-bottom: 10px;
+}
+
+#testimonials .owl-stage .item {
+    padding-bottom: 30px;
+}
+
+.experience .col-md-4 {
+    margin-bottom: 50px;
 }
