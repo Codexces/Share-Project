@@ -12,7 +12,7 @@ $('#walkthrough-slider, .artistry-slider, .blog_section').owlCarousel({
         0: {
             items: 1
         },
-        600: {
+        700: {
             items: 1
         },
         1000: {

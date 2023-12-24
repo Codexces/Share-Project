@@ -1121,4 +1121,8 @@
     .talks {
         margin: 20px 0px 0px;
     }
+    .talks .time-line .col-md-4 {
+        width: 100%;
+        max-width: 100%;
+    }
 }
