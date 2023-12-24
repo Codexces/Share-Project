@@ -1,0 +1,836 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+img {
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*--header--*/
+
+header {
+    background: #d9d9d9;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+.headesec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+nav ul {
+    display: block;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 18px 20px;
+}
+
+nav ul li a {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/*--slider --*/
+
+.slider {
+    margin: 0px;
+    padding: 40px 0px;
+    position: relative;
+    width: 100%;
+    background: #f2f2f2;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.slider .slidertext span {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    position: relative;
+}
+
+.slider .slidertext span:after {
+    content: '';
+    position: absolute;
+    background: #000;
+    top: 9px;
+    left: 80px;
+    width: 60px;
+    height: 2px;
+}
+
+.slider .slidertext h1 {
+    color: #000;
+    font-family: Ramabhadra;
+    font-size: 70px;
+    font-style: normal;
+    line-height: 65px;
+    margin: 20px 0px;
+}
+
+.slider .slidertext h1 span {
+    color: #BF6F36;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+    position: relative;
+}
+
+.slider .slidertext h1 span:after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 0;
+    top: 0;
+}
+
+.slider .slidertext p {
+    text-align: justify;
+    font-family: Ramabhadra;
+    font-size: 14px;
+    line-height: 27px;
+    margin: 0px 0px 30px;
+}
+
+.slider .slidertext a {
+    background: #BF6F36;
+    padding: 8px 36px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.slider .sliderimg {
+    width: 420px;
+    margin-left: 45px;
+}
+
+.slider:after,
+.slider:before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    background: #D4D4D4;
+    width: 75vh;
+    height: 75vh;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.slider:after {
+    width: 95vh;
+    height: 95vh;
+    background: #E0E0E0;
+    z-index: -2;
+    right: -20px;
+    bottom: -52px;
+    overflow: hidden;
+}
+
+
+/*--banner --*/
+
+.banner {
+    margin: 0px;
+    padding: 30px 0px 30px;
+    position: relative;
+    width: 100%;
+}
+
+.banner .bannersect {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner .bannersect h2 {
+    color: #BF6F36;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0px 0px 15px;
+}
+
+.banner .bannersect p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.bgslier {
+    background: #A4BC46;
+    margin: 0px;
+    padding: 30px 0px;
+    position: relative;
+}
+
+.bgslier h4 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 0px 50px;
+}
+
+.bannerslider .owl-nav {
+    display: block !important;
+    position: absolute;
+    top: -80px;
+    right: -20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.bannerslider .owl-nav button {
+    background: #fff !important;
+    width: 40px;
+    border-radius: 4px;
+    height: 35px;
+    line-height: 35px !important;
+    margin: 0px 5px;
+    font-size: 25px !important;
+}
+
+.bgimgsect {
+    width: 100%;
+    position: relative;
+}
+
+.bgimgsect:before {
+    content: '';
+    position: absolute;
+    height: 140px;
+    width: 100%;
+    bottom: -5px;
+    background: #fff;
+    z-index: -1;
+    border-radius: 12px;
+}
+
+.bannerslider .item {
+    padding-bottom: 10px;
+}
+
+.bgslier .bannerimgbox {
+    position: absolute;
+    top: -60%;
+    width: auto;
+}
+
+.bgslier .bannerimgbox img {
+    width: calc(100% - 40px);
+}
+
+
+/*--about--*/
+
+.about {
+    margin: 0px;
+    padding: 0px 0px 20px;
+    position: relative;
+    width: 100%;
+}
+
+.about .abouttext {
+    margin: 0px;
+    padding: 0px;
+}
+
+.about .abouttext h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about .abouttext p {
+    margin: 20px 0px 30px;
+    color: #666;
+    font-weight: 500;
+}
+
+.about .abouttext a {
+    background: #BF6F36;
+    padding: 8px 40px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.about .aboutimg {
+    width: 400px;
+    margin: 0px;
+    float: right;
+}
+
+
+/*--ricecream--*/
+
+.ricecream {
+    margin: 0px;
+    padding: 30px 0px;
+    position: relative;
+    width: 100%;
+}
+
+.ricecream .ricecreambox {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ricecream .ricecreambox h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 0px 13px;
+}
+
+.ricecream .ricecreambox p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ricecream .ricecreambox .ricecreamtab {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.ricecream .ricecreambox .ricecreamtab li {
+    margin: 0px;
+    padding: 7px 50px;
+    border-radius: 50px;
+    display: inline-block;
+    transition: 0.5s all linear;
+    cursor: pointer;
+    border: 2px solid #00000000;
+}
+
+.ricecreamtab li a {
+    color: #221;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.5s all linear;
+}
+
+.ricecream .ricecreambox .ricecreamtab li:hover {
+    border: 2px solid #776FC4;
+    background: #776FC4;
+    transition: 0.5s all linear;
+}
+
+.ricecreamtab li:hover a {
+    color: #fff;
+    transition: 0.5s all linear;
+}
+
+.shomabodi {
+    display: none;
+    padding: 30px 0px;
+}
+
+.shomabodi.active {
+    display: flex;
+    align-items: center;
+}
+
+.shomabodi p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.shomabodi img {
+    height: 180px;
+}
+
+.ricecreamimg {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ricecreamimg .owl-nav {
+    display: none;
+}
+
+.ricecreamimg .owl-dots {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+
+/*--number--*/
+
+.number {
+    margin: 0px;
+    padding: 0px;
+    background: #629574;
+}
+
+.number .numberbox {
+    text-align: center;
+    padding: 20px 0px 0px;
+}
+
+.number .numberbox h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.number .numberbox p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15px;
+    margin: 10px 0px 20px;
+}
+
+
+/*--ratingreview--*/
+
+.ratingreview {
+    margin: 0px;
+    padding: 30px 0px 40px;
+    width: 100%;
+    position: relative;
+}
+
+.ratingreview .ratingreview-box {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.ratingreview .ratingreview-box h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0px 20px;
+}
+
+.ratingreview .ratingreview-box h3:after {
+    content: '';
+    background: #bf6f36;
+    width: 130px;
+    height: 4px;
+    position: absolute;
+    top: 9%;
+    left: 0px;
+    right: 0px;
+    margin: 11px auto;
+    border-radius: 10px;
+}
+
+.ratingreview .ratingreview-box h3 span {
+    color: #BF6F36;
+}
+
+.ratingreview .ratingreview-box p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 0px 20px;
+    text-align: center;
+}
+
+.ratingreview .ratingreview-box p b {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.ratingreview .ratingreview-box p span {
+    color: #ffa000;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+.ratingreviewsect {
+    background: #E4F1E8;
+    padding: 30px;
+    margin: 0px 10px;
+    /* position: relative; */
+    border-radius: 10px;
+}
+
+.ratingreviewsect h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0px 0px 10px;
+}
+
+.ratingreviewsect h4 span {
+    color: #ffa000;
+    font-size: 12px;
+}
+
+.ratingreviewsect p {
+    color: #585858;
+    text-align: justify;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0px 20px;
+    line-height: 25px;
+}
+
+.ratingreviewsect img {
+    position: absolute;
+    width: 75px !important;
+    height: 75px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.item {
+    margin: 35px 0px;
+}
+
+.ratingreview .owl-nav {
+    display: none;
+}
+
+.ratingreview .owl-dots {
+    display: block;
+    background: #ccc;
+    width: 9px;
+    height: 9px;
+    border-radius: 10px;
+    margin: 20px auto 0px;
+}
+
+
+/*--ricreamsect--*/
+
+.ricreamsect {
+    margin: 0px;
+    padding: 20px 0px;
+    position: relative;
+    width: 100%;
+}
+
+.ricreamsecttext {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ricreamsecttext h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0px 0px 15px;
+}
+
+.ricreamsecttext p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ricreamsect h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0px 15px;
+}
+
+.ricreamsect-box {
+    margin: 0px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(218, 218, 218, 0.35);
+}
+
+.ricreamsect-box span {
+    color: #ffa000;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.ricreamsect-box p {
+    color: #666;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 10px 0px 15px;
+}
+
+.ricreamsect-box h6 {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 17px;
+}
+
+.ricreamsect-box h6 span {
+    background: #ccc;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 25px;
+}
+
+
+/*--contactsect --*/
+
+.contactsect {
+    margin: 0px;
+    padding: 30px 0px;
+    position: relative;
+}
+
+.contactsect .contactbox {
+    margin: 0;
+    padding: 0px;
+    width: calc(100% - 50px);
+    display: block;
+}
+
+.contactsect h3 {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0px 0px 10px;
+}
+
+.contactsect p {
+    color: #7D7C7C;
+    font-weight: 400;
+    margin: 0px 0px 30px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contactsect .contactbox form {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactsect .contactbox form .form-group {
+    margin: 0px;
+    padding: 0px;
+    width: calc(96% / 2);
+    /* display: inline-block; */
+    margin-right: 15px;
+}
+
+.contactsect .contactbox form .form-group .form-control {
+    border: none;
+    border-radius: unset;
+    border-bottom: 1px solid #D9D9D9;
+    color: #B0B0B0;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 5px 0px 30px;
+    padding: 5px 0px;
+}
+
+.contactsect .contactbox form .btn-button {
+    border-radius: 4px;
+    background: #BF6F36;
+    color: #fff;
+    border: none;
+    padding: 7px 40px;
+    margin: 0px 0px 20px;
+    font-size: 16px;
+}
+
+.contactsect .container {
+    padding: 40px 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.35);
+    position: relative;
+    padding-right: 0;
+}
+
+.contactsect .container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #FFDE3B;
+    height: 100%;
+    width: 250px;
+    z-index: -1;
+}
+
+.imgesbox {
+    background: #e7e7e7;
+    border-radius: 4px;
+    position: relative;
+    top: 20px;
+    margin-right: -1px;
+}
+
+.imgesbox img {
+    width: calc(100% - 100px);
+    padding: 20px 0px;
+}
+
+.imgesbox:before {
+    content: '''';
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    background: #ffde3b;
+    width: 35px;
+    height: 35px;
+}
+
+.contactsect .contactbox form .form-group:nth-child(even) {
+    margin-right: 0;
+}
+
+.contactsect .contactbox form .form-group.fullsection {
+    width: 100%;
+}
+
+.contactsect .contactbox form .form-group textarea.form-control {
+    height: 85px;
+    width: 50%;
+}
+
+
+/*--footer--*/
+
+footer {
+    background: #201F1F;
+    margin: 0px;
+    padding: 30px 0px 20px;
+    position: relative;
+    width: 100%;
+}
+
+footer .footerlist {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer .footerlist h4 {
+    color: #FFA000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer .footerlist ul {
+    display: block;
+    margin: 20px 0px;
+}
+
+footer .footerlist ul li {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer .footerlist ul li a {
+    color: #fff;
+}
+
+footer .footerlist ul li span {
+    color: #848484;
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+footer .footerlist ul.footicon li {
+    line-height: 17px;
+    margin: 20px 0px 0px;
+}
+
+footer .footerlist ul.footicon li span {
+    font-size: 17px !important;
+    margin: 0px 4px 10px 0px;
+}
+
+
+/*--copyright--*/
+
+.copyright {
+    margin: 0px;
+    padding: 15px 0px 0px;
+    background: #000;
+}
+
+.copyright p {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    line-height: 15px;
+}
